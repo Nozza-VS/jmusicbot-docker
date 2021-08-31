@@ -2,7 +2,7 @@ FROM openjdk:11-jre-slim
 
 MAINTAINER Nozza <nozza@vengefulsyndicate.com>
 
-ENV JMB_VERSION 0.3.4
+ENV JMB_VERSION 0.3.5
 
 RUN mkdir -p /opt/jmb/config
 ADD https://github.com/jagrosh/MusicBot/releases/download/$JMB_VERSION/JMusicBot-$JMB_VERSION.jar /opt/jmb/JMusicBot.jar
